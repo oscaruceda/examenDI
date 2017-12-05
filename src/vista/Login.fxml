@@ -36,7 +36,7 @@
                               <Font size="28.0" />
                            </font>
                         </Label>
-                        <Label layoutX="125.0" layoutY="460.0" prefHeight="56.0" prefWidth="167.0" style="-fx-font-family: &quot;Poiret One&quot;;" text="Own Account" textFill="WHITE">
+                        <Label layoutX="125.0" layoutY="460.0" prefHeight="56.0" prefWidth="191.0" style="-fx-font-family: &quot;Poiret One&quot;;" text="Own Account" textFill="WHITE">
                            <font>
                               <Font size="28.0" />
                            </font>

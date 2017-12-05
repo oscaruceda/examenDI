@@ -13,6 +13,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class ControlFX implements Initializable {
 
@@ -33,6 +34,8 @@ public class ControlFX implements Initializable {
             Stage sendStage = new Stage();
             sendStage.setTitle("FreeSolo");
             Scene scene = new Scene(page);
+            sendStage.setScene(scene);         
+            sendStage.initStyle(StageStyle.UNDECORATED);
             sendStage.setScene(scene);
             sendStage.show();
 

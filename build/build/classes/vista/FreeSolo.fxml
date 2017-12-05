@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #5D4037aa;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="vista.ControlFX2">
+   <children>
+      <Label alignment="CENTER" layoutX="218.0" layoutY="152.0" prefHeight="65.0" prefWidth="65.0" style="-fx-background-radius: 50px; -fx-background-color: #fff;" text="M" textFill="#ff4081">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="227.0" layoutY="229.0" text="EXAMEN" textFill="WHITE" />
+      <JFXSpinner layoutX="234.0" layoutY="260.0" />
+      <JFXButton layoutX="224.0" layoutY="304.0" onAction="#cerrar" style="-fx-border-radius: 20px; -fx-background-color: white;" text="Cerrar" />
+   </children>
+</AnchorPane>

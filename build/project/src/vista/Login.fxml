@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.ControlFX">
+   <children>
+      <SplitPane dividerPositions="0.6072144288577155" prefHeight="600.0" prefWidth="1000.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="446.0" fitWidth="361.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../vista.assets.images/freesolo.png" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane prefHeight="598.0" prefWidth="607.0" style="-fx-background-color: #5D4037aa;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <JFXButton layoutX="125.0" layoutY="530.0" prefHeight="31.0" prefWidth="93.0" style="-fx-background-color: #fff; -fx-background-radius: 10px;" text="ABOUT US" textFill="#795548" />
+                        <JFXButton layoutX="239.0" layoutY="530.0" onAction="#GetStarted" prefHeight="31.0" prefWidth="93.0" style="-fx-background-radius: 10px; -fx-border-color: #fff; -fx-border-radius: 10px;" text="SIGNIN" textFill="WHITE" />
+                        <Label layoutX="125.0" layoutY="415.0" prefHeight="56.0" prefWidth="167.0" style="-fx-font-family: &quot;Poiret One&quot;;" text="Create Your" textFill="WHITE">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="125.0" layoutY="460.0" prefHeight="56.0" prefWidth="167.0" style="-fx-font-family: &quot;Poiret One&quot;;" text="Own Account" textFill="WHITE">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="160.0" minWidth="311.0" prefHeight="160.0" prefWidth="311.0">
+               <children>
+                  <HBox layoutX="44.0" layoutY="170.0" prefHeight="382.0" prefWidth="297.0" AnchorPane.bottomAnchor="46.0" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="44.0" AnchorPane.topAnchor="170.0">
+                     <children>
+                        <GridPane prefHeight="367.0" prefWidth="297.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="287.0" minWidth="10.0" prefWidth="191.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="114.0" minWidth="10.0" prefWidth="106.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <JFXButton prefHeight="31.0" prefWidth="93.0" style="-fx-background-color: WHITE; -fx-border-color: #795548; -fx-border-radius: 10px;" text="GET STARTED" textFill="#795548" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <JFXToggleButton text="UNDER 18?" toggleColor="#ff4081" GridPane.rowIndex="5" />
+                              <JFXTextField focusColor="#ff4081" prefHeight="31.0" prefWidth="197.0" promptText="FIRST NAME" unFocusColor="#bdbdbd" />
+                              <JFXTextField focusColor="#ff4081" prefHeight="31.0" prefWidth="197.0" promptText="LAST NAME" unFocusColor="#bdbdbd" GridPane.rowIndex="1" />
+                              <JFXTextField focusColor="#ff4081" prefHeight="31.0" prefWidth="197.0" promptText="EMAIL" unFocusColor="#bdbdbd" GridPane.rowIndex="2" />
+                              <JFXPasswordField focusColor="#ff4081" promptText="PASSWORD" unFocusColor="#bdbdbd" GridPane.rowIndex="3" />
+                              <JFXPasswordField focusColor="#ff4081" promptText="REPEAT PASSWORD" unFocusColor="#bdbdbd" GridPane.rowIndex="4" />
+                           </children>
+                        </GridPane>
+                     </children>
+                  </HBox>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="148.0" layoutY="82.0" prefHeight="88.0" prefWidth="89.0" style="-fx-background-radius: 50px; -fx-background-color: #fff; -fx-border-radius: 40px;" text="M" textFill="#ff4081">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

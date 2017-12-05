@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import com.jfoenix.controls.JFXToggleButton?>
 <?import javafx.scene.control.Label?>
@@ -35,7 +36,7 @@
                               <Font size="28.0" />
                            </font>
                         </Label>
-                        <Label layoutX="125.0" layoutY="460.0" prefHeight="56.0" prefWidth="167.0" text="Own Account" textFill="WHITE">
+                        <Label layoutX="125.0" layoutY="460.0" prefHeight="56.0" prefWidth="167.0" style="-fx-font-family: &quot;Poiret One&quot;;" text="Own Account" textFill="WHITE">
                            <font>
                               <Font size="28.0" />
                            </font>
@@ -67,8 +68,8 @@
                               <JFXTextField focusColor="#ff4081" prefHeight="31.0" prefWidth="197.0" promptText="FIRST NAME" unFocusColor="#bdbdbd" />
                               <JFXTextField focusColor="#ff4081" prefHeight="31.0" prefWidth="197.0" promptText="LAST NAME" unFocusColor="#bdbdbd" GridPane.rowIndex="1" />
                               <JFXTextField focusColor="#ff4081" prefHeight="31.0" prefWidth="197.0" promptText="EMAIL" unFocusColor="#bdbdbd" GridPane.rowIndex="2" />
-                              <JFXTextField focusColor="#ff4081" prefHeight="31.0" prefWidth="197.0" promptText="PASSWORD" unFocusColor="#bdbdbd" GridPane.rowIndex="3" />
-                              <JFXTextField focusColor="#ff4081" prefHeight="31.0" prefWidth="197.0" promptText="REPEAT PASSWORD" unFocusColor="#bdbdbd" GridPane.rowIndex="4" />
+                              <JFXPasswordField focusColor="#ff4081" promptText="PASSWORD" unFocusColor="#bdbdbd" GridPane.rowIndex="3" />
+                              <JFXPasswordField focusColor="#ff4081" promptText="REPEAT PASSWORD" unFocusColor="#bdbdbd" GridPane.rowIndex="4" />
                            </children>
                         </GridPane>
                      </children>
